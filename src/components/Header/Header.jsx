@@ -6,7 +6,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div className="container mx-auto ">
-      <div className="navbar bg-base-100 ">
+      <div className="navbar  bg-base-100 ">
         <div className="navbar-start">
           <img className="w-72" src={img} alt="" />
         </div>
@@ -56,7 +56,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end ">
-          <a className="btn">Get started</a>
+          <a className="btn">Start Applying</a>
         </div>
 
         <div className="ml-10 mr-5 lg:hidden">
