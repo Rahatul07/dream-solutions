@@ -4,8 +4,13 @@ import App from "./App";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
 
 const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
   {
     path: "/",
     element: <Header />,
