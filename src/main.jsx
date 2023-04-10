@@ -9,13 +9,14 @@ import Statistics from "./components/Statistics/Statistics";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import Blogs from "./components/Blogs/Blogs";
 import JobDetails from "./components/JobDetails/JobDetails";
+import { serviceAndCartData } from "./components/featuresAndSingleData";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
-    // loader: serviceAndCartData,
+    loader: serviceAndCartData,
     children: [
       { path: "/", element: <Home /> },
       { path: "/statistics", element: <Statistics /> },
