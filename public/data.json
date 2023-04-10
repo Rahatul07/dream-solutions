@@ -5,7 +5,7 @@
     "title": "Senior Product Designer",
     "companyName": "Amazon",
     "salary": "100k-150k",
-    "img": "https://ibb.co/k601dF1"
+    "img": "https://i.ibb.co/WpFtT1t/Amazon.png"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsgd",
@@ -13,7 +13,7 @@
     "title": "Software Engineer",
     "companyName": "Correios",
     "salary": "110k-170k",
-    "img": "https://ibb.co/c1BGt4T"
+    "img": "https://i.ibb.co/7XfwVsy/correios.png"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsff",
@@ -21,7 +21,7 @@
     "title": "Technical Database Engineer",
     "companyName": "Disney",
     "salary": "200k-250k",
-    "img": "https://ibb.co/PwpGGYQ"
+    "img": "https://i.ibb.co/863ggBc/disney.png"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsss",
@@ -29,7 +29,7 @@
     "title": "Frontend Developer",
     "companyName": "FedEx",
     "salary": "100k-130k",
-    "img": "https://ibb.co/sFhSmQ9"
+    "img": "https://i.ibb.co/tbSfmcp/FedEx.png"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsst",
@@ -37,7 +37,7 @@
     "title": "Senior Product Designer",
     "companyName": "SubWay",
     "salary": "70k-100k",
-    "img": "https://ibb.co/2jCW6Hs"
+    "img": "https://i.ibb.co/GV8nJNt/subWay.png"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdssu",
@@ -45,7 +45,7 @@
     "title": "Software Engineer",
     "companyName": "Tesla",
     "salary": "220k-300k",
-    "img": "https://ibb.co/2gsJkyB"
+    "img": "https://i.ibb.co/Pw9k6N8/tesla.png"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsfh",
@@ -53,7 +53,7 @@
     "title": "Technical Database Engineer",
     "companyName": "Uber",
     "salary": "100k-150k",
-    "img": "https://ibb.co/1LPpT6r"
+    "img": "https://i.ibb.co/c1ZpQL6/Uber.png"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsfi",
@@ -61,6 +61,6 @@
     "title": "Database Engineer",
     "companyName": "Walmart",
     "salary": "120k-150k",
-    "img": "https://ibb.co/PWvq700"
+    "img": "https://i.ibb.co/QH3y2tt/Walmart.png"
   }
 ]
