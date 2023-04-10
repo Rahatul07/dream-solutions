@@ -13,6 +13,9 @@
   .btn {
     @apply inline-flex items-center h-12 px-6 mb-3 font-medium text-white transition duration-200 rounded shadow-md  md:mb-0 bg-purple-400 hover:bg-purple-700;
   }
+  .btn2 {
+    @apply inline-flex justify-center items-center h-12 px-6 mb-3 w-full font-medium text-white transition duration-200 rounded-lg  shadow-md  md:mb-0 bg-purple-400 hover:bg-purple-700;
+  }
 }
 .btn-primary {
   @apply font-medium  transition duration-200  shadow-md  md:mb-0  px-4 py-2 md:px-8 md:py-3 m-2 text-lg rounded-full border-transparent border-2  text-gray-700 hover:bg-cyan-400 bg-cyan-200;

@@ -22,6 +22,16 @@ const Header = () => {
                 Home
               </NavLink>
             </li>
+            <li className="ml-5">
+              <NavLink
+                to="/jobDetails"
+                aria-label="jobDetails"
+                title="jobDetails"
+                className={({ isActive }) => (isActive ? "active" : "default")}
+              >
+                Job Details
+              </NavLink>
+            </li>
 
             <li className="ml-5">
               <NavLink
