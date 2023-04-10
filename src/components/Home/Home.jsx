@@ -65,6 +65,14 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="text-center mb-10">
+        <h1 className="pb-2 text-center text-4xl font-bold">Featured Jobs</h1>
+        <p>
+          Explore thousands of job opportunities with all the information you
+          need. Its your future
+        </p>
+        <div></div>
+      </div>
     </div>
   );
 };
