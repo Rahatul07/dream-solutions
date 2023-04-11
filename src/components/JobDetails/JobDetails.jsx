@@ -17,6 +17,7 @@ const JobDetails = () => {
   const features = useLoaderData();
   const selectedJob = features.find((job) => job.id === id);
   console.log(selectedJob);
+  const { title, salary, phone, location, email } = selectedJob;
 
   return (
     <div>
@@ -61,13 +62,15 @@ const JobDetails = () => {
               <div className="flex">
                 <img className="h-6 w-6 mr-1" src={f1} alt="" />
                 <p className="text-gray-400 pb-2">
-                  <strong>Salary :</strong>
+                  <strong>Salary : </strong>
+                  {salary}
                 </p>
               </div>
               <div className="flex">
                 <img className="h-6 w-6 mr-1" src={f2} alt="" />
                 <p className="text-gray-400 pb-2">
                   <strong>Job Title : </strong>
+                  {title}
                 </p>
               </div>
 
@@ -76,19 +79,22 @@ const JobDetails = () => {
               <div className="flex">
                 <img className="h-6 w-6 mr-1" src={f3} alt="" />
                 <p className="text-gray-400 pb-2">
-                  <strong>Phone :</strong>
+                  <strong>Phone : </strong>
+                  {phone}
                 </p>
               </div>
               <div className="flex">
                 <img className="h-6 w-6 mr-1" src={f4} alt="" />
                 <p className="text-gray-400 pb-2">
-                  <strong>Email :</strong>
+                  <strong>Email : </strong>
+                  {email}
                 </p>
               </div>
               <div className="flex">
                 <img className="h-6 w-6 mr-1" src={f5} alt="" />
                 <p className="text-gray-400">
-                  <strong>Address :</strong>
+                  <strong>Address : </strong>
+                  {location}
                 </p>
               </div>
             </div>
