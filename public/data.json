@@ -1,7 +1,7 @@
 [
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-    "location": "Amazon New York,USA",
+    "location": "New York,USA",
     "title": "Senior Product Designer",
     "companyName": "Amazon",
     "salary": "100k-150k",
@@ -17,7 +17,7 @@
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsff",
-    "location": "Burbank, California",
+    "location": "California",
     "title": "Technical Database Engineer",
     "companyName": "Disney",
     "salary": "200k-250k",
@@ -25,7 +25,7 @@
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsss",
-    "location": "Little Rock, Arkansas, United States",
+    "location": "United States",
     "title": "Frontend Developer",
     "companyName": "FedEx",
     "salary": "100k-130k",
@@ -33,7 +33,7 @@
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsst",
-    "location": "Bridgeport, Connecticut, United States",
+    "location": "United States",
     "title": "Senior Product Designer",
     "companyName": "SubWay",
     "salary": "70k-100k",
@@ -41,7 +41,7 @@
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdssu",
-    "location": "San Carlos, California, United States",
+    "location": "San Carlos",
     "title": "Software Engineer",
     "companyName": "Tesla",
     "salary": "220k-300k",
@@ -57,7 +57,7 @@
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsfi",
-    "location": "Rogers, Arkansas, United States",
+    "location": "United States",
     "title": "Database Engineer",
     "companyName": "Walmart",
     "salary": "120k-150k",

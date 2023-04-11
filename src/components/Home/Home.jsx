@@ -89,7 +89,7 @@ const Home = () => {
         </p>
         <div>
           <div>
-            <div className="grid grid-cols-1 lg:grid-cols-2">
+            <div className="grid grid-cols-1 lg:grid-cols-2  w-3/5 lg:w-4/5 mx-auto gap-10 my-5 ">
               {jobData.map((job) => (
                 <Card job={job} />
               ))}

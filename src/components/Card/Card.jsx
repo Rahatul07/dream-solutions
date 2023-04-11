@@ -7,11 +7,11 @@ const Card = ({ job }) => {
   console.log(job);
   return (
     <div>
-      <div className="  bg-purple-50 w-3/5  mx-auto rounded-lg  text-left">
-        <div className=" h-20 w-36 m-5 rounded-lg ">
+      <div className="  bg-purple-50  rounded-xl  text-left h-full pl-5 my-5 relative border border-purple-400">
+        <div className=" h-20 w-36 ml-5 rounded-lg mt-5">
           <img src={img} alt="" />
         </div>
-        <div className="ml-5 my-3">
+        <div className="ml-5 ">
           <h1 className="text-2xl font-bold">{title}</h1>
           <p className="text-xl text-gray-400">{companyName}</p>
           <div className="mt-3">
@@ -22,7 +22,7 @@ const Card = ({ job }) => {
               Full Time
             </button>
           </div>
-          <div className="flex mt-3">
+          <div className="flex mt-3 pr-5">
             <div className="flex">
               <img className="mr-2" src={img5} alt="" />
               <p>{location}</p>
@@ -33,8 +33,8 @@ const Card = ({ job }) => {
             </div>
           </div>
         </div>
-        <div className="flex items-center mx-auto pr-5">
-          <a className="btn2">View Details</a>
+        <div className="items-center ml-5 mt-14">
+          <a className="btn2 absolute bottom-7 ">View Details</a>
         </div>
       </div>
     </div>
