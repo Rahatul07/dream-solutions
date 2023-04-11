@@ -14,14 +14,6 @@ import Card from "../Card/Card";
 
 const Home = () => {
   const jobData = useContext(JobContext);
-  // const { title } = jobData[0];
-  // console.log(title);
-
-  // const [getJob, setGetJob] = useState([]);
-  // useEffect(() => {
-  //   jobData.map((job) => setGetJob(job));
-  // }, []);
-  // const { title, companyName, img } = getJob;
 
   return (
     <div>
@@ -89,7 +81,7 @@ const Home = () => {
         </p>
         <div>
           <div>
-            <div className="grid grid-cols-1 lg:grid-cols-2  w-3/5 lg:w-4/5 mx-auto gap-10 my-5 ">
+            <div className="grid grid-cols-1 lg:grid-cols-2  w-3/5 lg:w-4/5   mx-auto gap-16 my-5 ">
               {jobData.map((job) => (
                 <Card job={job} />
               ))}

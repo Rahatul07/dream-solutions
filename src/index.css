@@ -14,7 +14,7 @@
     @apply inline-flex items-center h-12 px-6 mb-3 font-medium text-white transition duration-200 rounded shadow-md  md:mb-0 bg-purple-400 hover:bg-purple-700;
   }
   .btn2 {
-    @apply inline-flex justify-center items-center h-12 px-6 mb-3 font-medium text-white transition duration-200 rounded-lg  shadow-md  md:mb-0 bg-purple-400 hover:bg-purple-700;
+    @apply inline-flex justify-center items-center h-12 px-6 mb-3 font-medium text-white transition duration-200 rounded-lg  shadow-md  md:mb-0 bg-purple-600 hover:bg-purple-400;
   }
 }
 .btn-primary {
