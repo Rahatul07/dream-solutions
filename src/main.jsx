@@ -9,6 +9,7 @@ import Statistics from "./components/Statistics/Statistics";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import Blogs from "./components/Blogs/Blogs";
 import JobDetails from "./components/JobDetails/JobDetails";
+import { serviceAndCartData } from "./components/featuresAndSingleData";
 
 const router = createBrowserRouter([
   {
@@ -17,9 +18,17 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
 
     children: [
-      { path: "/", element: <Home />, loader: () => fetch("data.json") },
+      {
+        path: "/",
+        element: <Home />,
+        loader: () => fetch("../public/data.json"),
+      },
       { path: "/statistics", element: <Statistics /> },
-      { path: "/appliedJobs", element: <AppliedJobs /> },
+      {
+        path: "/appliedJobs",
+        element: <AppliedJobs />,
+        loader: serviceAndCartData,
+      },
       { path: "/blogs", element: <Blogs /> },
       {
         path: "/jobDetails/:id",

@@ -7,6 +7,7 @@ import f3 from "../../assets/Icons/Frame-2.png";
 import f4 from "../../assets/Icons/Frame-3.png";
 import f5 from "../../assets/Icons/Frame-4.png";
 import { useLoaderData, useParams } from "react-router-dom";
+import { addToDb } from "../../utils/fakedb";
 
 // import { JobContext } from "../../App";
 // import JobCart from "../JobCart/JobCart";
@@ -16,9 +17,11 @@ const JobDetails = () => {
   const { id } = useParams();
   const features = useLoaderData();
   const selectedJob = features.find((job) => job.id === id);
-  console.log(selectedJob);
-  const { title, salary, phone, location, email } = selectedJob;
 
+  const { title, salary, phone, location, email } = selectedJob;
+  const buttonApplyNow = (id) => {
+    addToDb(id);
+  };
   return (
     <div>
       <div>
@@ -98,13 +101,12 @@ const JobDetails = () => {
                 </p>
               </div>
             </div>
-            <a className="btn2">Apply Now</a>
+            <button onClick={() => buttonApplyNow(id)} className="btn2">
+              Apply Now
+            </button>
           </div>
         </div>
       </div>
-      {/* {jobData.map((job) => (
-        <JobCart key={job.id} job={job} />
-      ))} */}
     </div>
   );
 };

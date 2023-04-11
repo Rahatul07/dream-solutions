@@ -12,13 +12,6 @@ import { useLoaderData } from "react-router-dom";
 const Home = () => {
   const data = useLoaderData();
 
-  // const jobData = useContext(JobContext);
-  // const [cart, setCart] = useState([]);
-  // const buttonHandler = (job) => {
-  //   const newCart = [...cart, job];
-  //   setCart(newCart);
-  // };
-
   return (
     <div>
       <div>
@@ -95,7 +88,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div>{/* <JobCart /> */}</div>
     </div>
   );
 };
