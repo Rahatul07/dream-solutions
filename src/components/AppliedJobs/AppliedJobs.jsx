@@ -17,11 +17,9 @@ const AppliedJobs = () => {
       <div>
         <div className="mt-5 text-right mr-20">
           <select className="select select-bordered w-36 max-w-xs bg-purple-100 ">
-            <option disabled selected>
-              Filter By
-            </option>
-            <option>Show remote jobs</option>
-            <option>Show onside jobs</option>
+            <option disabled>Filter By</option>
+            <option>Remote jobs</option>
+            <option>Onside jobs</option>
           </select>
         </div>
         {/* Card */}

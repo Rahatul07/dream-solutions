@@ -9,20 +9,23 @@ import Statistics from "./components/Statistics/Statistics";
 import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import Blogs from "./components/Blogs/Blogs";
 import JobDetails from "./components/JobDetails/JobDetails";
-import { serviceAndCartData } from "./components/featuresAndSingleData";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
-    loader: serviceAndCartData,
+
     children: [
-      { path: "/", element: <Home /> },
+      { path: "/", element: <Home />, loader: () => fetch("data.json") },
       { path: "/statistics", element: <Statistics /> },
       { path: "/appliedJobs", element: <AppliedJobs /> },
       { path: "/blogs", element: <Blogs /> },
-      { path: "/jobDetails", element: <JobDetails /> },
+      {
+        path: "/jobDetails/:id",
+        element: <JobDetails />,
+        loader: ({ params }) => fetch("../public/data.json"),
+      },
     ],
   },
 ]);

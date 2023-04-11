@@ -1,3 +1,7 @@
 ### DREAM-SOLUTION
 
-1.  I have shown different types of data here.
+1. It is a job related website.
+2. This is one of the pattern to get job online.
+3. There are two types of jobs.
+4. Anyone can apply for any remote job or onside jobs.
+5. A person can get any information easily about the company that gives the job circular.

@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import img5 from "../../assets/Icons/Location Icon.png";
 import img6 from "../../assets/Icons/Frame.png";
+import JobDetails from "../JobDetails/JobDetails";
+import { Link } from "react-router-dom";
 
 const Card = ({ job }) => {
-  const { title, companyName, img, location, salary } = job;
-  console.log(job);
+  const { title, companyName, img, location, salary, id } = job;
+
   return (
     <div>
       <div className="  bg-purple-50  rounded-xl  text-left h-full pl-5 my-5 relative border border-purple-400">
@@ -34,9 +36,12 @@ const Card = ({ job }) => {
           </div>
         </div>
         <div className="items-center ml-5 mt-14">
-          <a className="btn2 absolute bottom-7 ">View Details</a>
+          <Link to={`/jobDetails/${id}`}>
+            <button className="btn2 absolute bottom-7 ">View Details</button>
+          </Link>
         </div>
       </div>
+      <div></div>
     </div>
   );
 };
