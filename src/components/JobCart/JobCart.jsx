@@ -5,8 +5,6 @@ import img2 from "../../assets/Icons/Frame.png";
 import { Link } from "react-router-dom";
 
 const JobCart = ({ apply }) => {
-  console.log(apply);
-
   const { title, companyName, location, salary, id, img } = apply;
 
   return (

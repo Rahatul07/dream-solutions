@@ -56,7 +56,9 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end ">
-          <a className="btn">Start Applying</a>
+          <Link to="/blogs">
+            <a className="btn">Learn More</a>
+          </Link>
         </div>
 
         <div className="ml-10 mr-5 lg:hidden">

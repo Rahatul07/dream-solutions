@@ -20,11 +20,6 @@ const JobDetails = () => {
 
   const { title, salary, phone, location, email } = selectedJob;
   const buttonApplyNow = (id) => {
-    if (selectedJob) {
-      alert("cart already added");
-    } else {
-      return [...selectedJob, job];
-    }
     addToDb(id);
   };
   return (

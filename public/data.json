@@ -7,7 +7,13 @@
     "salary": "100k-150k",
     "img": "https://i.ibb.co/WpFtT1t/Amazon.png",
     "phone": "0254254582",
-    "email": "amazon@gmail.com"
+    "email": "amazon@gmail.com",
+    "remote": true,
+    "employment_type": "Full-time",
+    "description": "Bangladesh",
+    "responsibilities": "is my",
+    "education": "motherland",
+    "experience": "ssc"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsgd",
@@ -17,7 +23,13 @@
     "salary": "110k-170k",
     "img": "https://i.ibb.co/7XfwVsy/correios.png",
     "phone": "0254254582",
-    "email": "carreios@gmail.com"
+    "email": "carreios@gmail.com",
+    "remote": false,
+    "employment_type": "Half-time",
+    "description": "Bangladesh",
+    "responsibilities": "is my",
+    "education": "motherland",
+    "experience": "ssc"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsff",
@@ -27,7 +39,13 @@
     "salary": "200k-250k",
     "img": "https://i.ibb.co/863ggBc/disney.png",
     "phone": "025454582",
-    "email": "disney@gmail.com"
+    "email": "disney@gmail.com",
+    "remote": true,
+    "employment_type": "Full-time",
+    "description": "Bangladesh",
+    "responsibilities": "is my",
+    "education": "motherland",
+    "experience": "ssc"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsss",
@@ -37,7 +55,13 @@
     "salary": "100k-130k",
     "img": "https://i.ibb.co/tbSfmcp/FedEx.png",
     "phone": "04254582",
-    "email": "fedEx@gmail.com"
+    "email": "fedEx@gmail.com",
+    "remote": false,
+    "employment_type": "Half-time",
+    "description": "Bangladesh",
+    "responsibilities": "is my",
+    "education": "motherland",
+    "experience": "ssc"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsst",
@@ -47,7 +71,13 @@
     "salary": "70k-100k",
     "img": "https://i.ibb.co/GV8nJNt/subWay.png",
     "phone": "0545825421",
-    "email": "subway@gmail.com"
+    "email": "subway@gmail.com",
+    "remote": true,
+    "employment_type": "Full-time",
+    "description": "Bangladesh",
+    "responsibilities": "is my",
+    "education": "motherland",
+    "experience": "ssc"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdssu",
@@ -57,7 +87,13 @@
     "salary": "220k-300k",
     "img": "https://i.ibb.co/Pw9k6N8/tesla.png",
     "phone": "04254124582",
-    "email": "tesla@gmail.com"
+    "email": "tesla@gmail.com",
+    "remote": true,
+    "employment_type": "Full-time",
+    "description": "Bangladesh",
+    "responsibilities": "is my",
+    "education": "motherland",
+    "experience": "ssc"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsfh",
@@ -67,7 +103,13 @@
     "salary": "100k-150k",
     "img": "https://i.ibb.co/c1ZpQL6/Uber.png",
     "phone": "0254582524",
-    "email": "uber@gmail.com"
+    "email": "uber@gmail.com",
+    "remote": true,
+    "employment_type": "Full-time",
+    "description": "Bangladesh",
+    "responsibilities": "is my",
+    "education": "motherland",
+    "experience": "ssc"
   },
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6fdsfi",
@@ -77,6 +119,12 @@
     "salary": "120k-150k",
     "img": "https://i.ibb.co/QH3y2tt/Walmart.png",
     "phone": "05458200",
-    "email": "walmart@gmail.com"
+    "email": "walmart@gmail.com",
+    "remote": true,
+    "employment_type": "Full-time",
+    "description": "Bangladesh",
+    "responsibilities": "is my",
+    "education": "motherland",
+    "experience": "ssc"
   }
 ]

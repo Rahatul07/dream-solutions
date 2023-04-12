@@ -1,7 +1,7 @@
 import { getStoredCart } from "../utils/fakedb";
 
 export const serviceAndCartData = async () => {
-  const jobsData = await fetch("../../public/data.json");
+  const jobsData = await fetch("/data.json");
   const jobs = await jobsData.json();
 
   const savedCart = getStoredCart();
