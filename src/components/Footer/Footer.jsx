@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <div className="my-container2 mt-10 bg-purple-950 text-white py-10 grid grid-cols-2 gap-36 ">
+      <div className="mb-3 px-36 mt-10 bg-purple-950 text-white py-10 grid grid-cols-2 gap-36 ">
         <div className="footer-left ">
           <h2 className="text-3xl underline pb-5">{company}</h2>
           <p>We are a leading company customers.</p>
