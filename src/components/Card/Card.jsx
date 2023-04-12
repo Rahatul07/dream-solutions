@@ -41,7 +41,6 @@ const Card = ({ job }) => {
           </Link>
         </div>
       </div>
-      <div></div>
     </div>
   );
 };

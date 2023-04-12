@@ -13,5 +13,5 @@ export const serviceAndCartData = async () => {
     }
   }
 
-  return { jobs, initialCart };
+  return { initialCart };
 };

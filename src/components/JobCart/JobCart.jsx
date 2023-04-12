@@ -11,8 +11,8 @@ const JobCart = ({ apply }) => {
 
   return (
     <div>
-      <div className="grid grid-cols-[1fr_3fr_1fr]  bg-purple-50 w-3/5  mx-auto rounded-lg mb-10 border border-purple-500 pt-3">
-        <div className=" h-36 w-36 m-5 rounded-lg flex items-center ">
+      <div className="grid grid-cols-[1fr_3fr_1fr]  bg-purple-50  w-3/5  mx-auto rounded-lg mb-10 border border-purple-500  px-1 py-3">
+        <div className=" h-40 mx-3 w-36 px-3 rounded-lg flex items-center border border-purple-300 bg-purple-100 my-3">
           <img src={img} alt="" />
         </div>
         <div className="ml-5 my-3">
@@ -37,9 +37,11 @@ const JobCart = ({ apply }) => {
             </div>
           </div>
         </div>
-        <Link to={"/"} className="flex  items-center mx-auto mr-5">
-          <button className="btn2 bottom-7 ">Home</button>
-        </Link>
+        <div className="flex  items-center mx-auto mr-5 ">
+          <Link to={`/jobDetails/${id}`}>
+            <button className="btn2  bottom-7 ">View Details</button>
+          </Link>
+        </div>
       </div>
     </div>
   );
